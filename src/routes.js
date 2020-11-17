@@ -4,15 +4,15 @@ import Stocks from './components/stocks/Stocks.vue';
 
 export const routes = [
   {
-    path: '/',
+    path: './',
     component: Home,
   },
   {
-    path: '/portfolio',
+    path: './portfolio',
     component: Portfolio,
   },
   {
-    path: '/stocks',
+    path: './stocks',
     component: Stocks,
   },
 ];
